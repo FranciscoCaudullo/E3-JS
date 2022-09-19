@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<h1>Buscador de Pizzas</h1>
+
+		<div class="img-container">
+			<div class="text-div" id="pizzaName">Hola! Debes escribir en el buscador un ID y aca vas a poder visualizar la Pizza que buscas
+			</div>
+			<div class="img-div" id="pizzaImg"><img src="pizzas/inicial.jpg" alt=""></div>
+		</div>
+		<form>
+			<div>
+				<label for="numberPizza">Que numero de pizza desea buscar?</label>
+				<div class="buttons">
+				<input
+					type="number"
+					id="numberPizza"
+					name="numberPizza"
+					placeholder="Ej: 1"
+				/>
+
+				<button type="submit" id="searchButton">Buscar</button>
+				</div>
+			</div>
+
+			
+			</div>
+		</form>
+		<script src="index.js"></script>
+	</body>
+</html>
